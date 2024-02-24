@@ -1,6 +1,7 @@
 :root {
   --primary_color: #058ED2;
-  --secondary_color: #E6771B;
+  --secondary_color: #950303;
+  /* --theme_color: #98181e; */
 }
 * {
   box-sizing: border-box;
@@ -21,52 +22,12 @@ a {
   color: inherit;
   text-decoration: none;
 }
+h2{
+  color: var(--secondary_color);
+}
 .hero_image img{
   width: 100%;
   height: auto;
-}
-
-.choose__section{
-  padding: 50px 0;
-  background: #f5f5f5;
-}
-
-.choose__inner h2{
-  font-size: 30px;
-  margin-bottom: 40px;
-  text-align: center;
-  font-weight: bolx;
-}
-
-.choose__box .box{
-  text-align: center;
-}
-
-.choose__box .box .image {
-  height: 100px;
-  width: 100px;
-  line-height: 100px;
-  margin: auto;
-  /* text-align: center; */
-  border-radius: 50%;
-  background: #d5d5d54f;
-  border: 0.5px solid #d5d5d5;
-}
-
-.choose__box .box .image img {
-  height: 60px;
-  width: 60px;
-}
-
-.choose__box .box p{
-  font-size: 22px;
-  margin-top: 30px;
-  font-weight: 600;
-}
-
-.sliderimg{
-  width: 100%;
-  height: 360px !important;
 }
 .hero_submit_btn {
   background-color: var(--secondary_color);
@@ -81,7 +42,7 @@ a {
 }
 
 .hero_submit_btn:hover {
-  background-color: #058ED2;
+  /* background-color: #4C7032; */
 }
 
 
@@ -123,4 +84,13 @@ button.accordion-button {
 /* SWIPER */
 .swiper-horizontal{
   padding-bottom: 50px !important;
+}
+.swiper-button-prev::after, .swiper-button-next::after{
+  font-size: 26px !important;
+}
+.swiper-button-prev{
+  left: 3px !important;
+}
+.swiper-button-next{
+  right: 3px !important;
 }

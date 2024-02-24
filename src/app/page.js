@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Accordionn from "@/components/accordion/accordion";
-import Choose from "@/components/Choose";
+import Choose from "@/components/choose/Choose";
 import DoctorList from "@/components/doctorList/doctorList";
 import Summery from "@/components/summery/summery";
 import Review from "@/components/review/review";
@@ -19,11 +19,11 @@ export default function Home() {
       <DoctorList />
       <Summery />
       <Review />
-            <Technology />
+      <Technology />
       {/* <It_Img />   */}
       <Hospitals />
-            <Contact />
-            <Footer />
+      <Contact />
+      <Footer />
     </main>
   );
 }

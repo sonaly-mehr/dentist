@@ -1,9 +1,12 @@
 "use client";
 import React, { Fragment, useState, useEffect, useRef } from "react";
 import logo from "../../assets/images/logo.jpg";
+import logo2 from "../../assets/images/logo2.png";
+import logo3 from "../../assets/images/logo3.png";
+import logo4 from "../../assets/images/logo4.png";
 import { FaCheckCircle } from "react-icons/fa";
 import { FaInfoCircle } from "react-icons/fa";
-import hero_img from "../../assets/images/header.png";
+import hero_img from "../../assets/images/hero_img-removebg-preview.png";
 import whatsapp from "../../assets/images/whatsapp.png";
 import { ToastContainer, toast } from "react-toastify";
 import styles from "./styles.module.css";
@@ -82,11 +85,39 @@ const Navbar = () => {
         <div className={styles.navbar_wrapper}>
           <div className="container">
             <div className={styles.navbar_inner}>
-              <div className={styles.logo}>
-                <Image style={{ borderRadius: "12px" }} src={logo} alt="logo" />
+              <div className={styles.logo_wrapper}>
+                <div>
+                  <div className={styles.logo}>
+                    <Image
+                      style={{ borderRadius: "12px" }}
+                      src={logo}
+                      alt="logo"
+                    />
+                  </div>
+                </div>
+                <div className={styles.nav_logos}>
+                  <Image
+                    src={logo3}
+                    alt="hero image"
+                    quality={100}
+                    unoptimized
+                  />
+                  <Image
+                    src={logo4}
+                    alt="hero image"
+                    quality={100}
+                    unoptimized
+                  />
+                  <Image
+                    src={logo2}
+                    alt="hero image"
+                    quality={100}
+                    unoptimized
+                  />
+                </div>
               </div>
               <div className={styles.phone}>
-                <a href="tel:+91- 8984 900 900"> +91- 8984 900 900</a>
+                <a href="tel:+91- 7669 900 900"> +91- 7669 900 900</a>
               </div>
             </div>
           </div>
@@ -100,31 +131,34 @@ const Navbar = () => {
                     <Row className="align-items-center">
                       <Col md={5}>
                         <div className="hero_image">
-                          <Image src={hero_img} alt="hero image" />
+                          <Image
+                            src={hero_img}
+                            alt="hero image"
+                            quality={100}
+                            unoptimized
+                          />
                         </div>
                       </Col>
                       <Col md={6}>
                         <div className={styles.helo_right_content}>
-                          <h4> Bone Marrow Transplant Centre: </h4>
+                          <h4> Dental Institute: </h4>
                           <p>
-                            Achieved successful Bone Marrow Transplant from our
-                            highly qualified expert Hemato-Oncologists and
-                            Pediatric Hematologic-Oncologists. They are equipped
-                            with advance equipment and cutting-edge technology
-                            from Alshifa Healthcare Services which associated
-                            with best hospitals.
+                          Alshifa Healthcare Services is associated with number of Dentists, Orthodontists and Implantologist for Dental issues. They are equipped with advanced technology, and modern amenities. 
                           </p>
                           <div className={styles.h_list}>
                             <ul>
                               <li>
                                 {" "}
                                 <FaCheckCircle className={styles.circle} />{" "}
-                                Expertise: <strong>25+</strong>of years
+                                They have over <strong>30+</strong> specialized dentists and Orthodontists
                               </li>
                               <li>
                                 <FaCheckCircle className={styles.circle} />
-                                <strong>1000+</strong> Successful Bone Marrow
-                                Transplant
+                                Boasting <strong>20+</strong> years of experience
+                              </li>
+                              <li>
+                                <FaCheckCircle className={styles.circle} />
+                                Successfully done <strong>100000+</strong> dental surgeries
                               </li>
                             </ul>
                           </div>
@@ -286,7 +320,7 @@ const Navbar = () => {
                         />{" "}
                         <span>
                           Get Updates on Whatsapp{" "}
-                          <a href="tel:+91- 8984 900 900">
+                          <a href="https://wa.me/917669900900">
                             {" "}
                             <Image
                               width={25}

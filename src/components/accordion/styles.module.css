@@ -1,38 +1,39 @@
 .question_section {
-    margin: 60px 0px;
+  margin: 60px 0px;
 }
 .question_title h2 {
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .question_title {
-    max-width: 1224px;
-    margin: auto;
-    margin-bottom: 40px;
+  max-width: 1224px;
+  margin: auto;
+  margin-bottom: 40px;
 }
 .readmorebtn {
-    border: none;
-    background: none;
-    font-weight: bold;
-    font-size: 14px;
+  border: none;
+  background: none;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .read_txt_list ul li {
-    list-style: none;
+  list-style: none;
 }
 
 .read_txt_list ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .second_list ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .second_list ul li {
-    list-style: none;
+  list-style: none;
 }

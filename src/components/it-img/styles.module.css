@@ -8,7 +8,7 @@
 }
 
 .content span {
-    background: #E6771B;
+    background: #950303;
     color: #fff;
     border-radius: 31px;
     padding: 10px 20px;
@@ -23,9 +23,6 @@
 .sm_img img {
     margin-right: 15px;
 }
-.it_img_txt {
-    margin-bottom: 15px;
-}
 
 .it_img_txt h4 {
     font-size: 30px;
@@ -34,20 +31,7 @@
 .it_img_txt span {
     display: inline-block;
     padding: 10px 50px 10px;
-    background: #083659;
-    color: #fff;
-    border-radius: 50px;
-    margin: 15px 0 25px;
-}
-
-.it_img_txt h4 {
-    font-size: 30px;
-}
-
-.it_img_txt span {
-    display: inline-block;
-    padding: 10px 50px 10px;
-    background: #083659;
+    background: #950303;
     color: #fff;
     border-radius: 50px;
     margin: 15px 0 25px;

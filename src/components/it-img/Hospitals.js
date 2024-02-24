@@ -9,14 +9,12 @@ import "swiper/css/pagination";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import image1 from "../../assets/images/hospital1.jpg";
-import image2 from "../../assets/images/hospital2.jpg";
-import image3 from "../../assets/images/hospital3.jpg";
-import image4 from "../../assets/images/hospital4.jpg";
-import image5 from "../../assets/images/hospital5.jpg";
-import image6 from "../../assets/images/hospital6.jpeg";
-import image7 from "../../assets/images/hospital7.jpeg";
-import image8 from "../../assets/images/hospital8.jpg";
+import haident_mumbai from "../../assets/images/haident_mumbai.jpg";
+import rajan_dental from "../../assets/images/rajan_dental.jpg";
+import dentzz_clinic from "../../assets/images/dentzz_clinic.jpg";
+import apollo_dental from "../../assets/images/apollo_dental.jpg";
+import cosmodent_hospital from "../../assets/images/cosmodent_hospital.jpg";
+import artemis from "../../assets/images/artemis_hospital.png";
 
 import image9 from "../../assets/images/nabh.png";
 import image10 from "../../assets/images/nabl.png";
@@ -25,94 +23,59 @@ import Image from "next/image";
 const Hospitals = () => {
   const hospital__info = [
     {
-      image: image1,
-      title: "Max Super Speciality Hospital",
-      location: "1 2, Press Enclave Marg, Saket Institutional Area, Saket, New Delhi, Delhi 110017",
+      image: haident_mumbai,
+      title: "Haident",
+      location: "Mayfield Garden, Sector 52, Gurugram, Haryana 122003",
       facilities:
-        "It is NABH and JCI accredited hospital which provides the best treatment. Labs of Max are also NABL Accredited.",
-
+        "It is NABH and JCI accredited hospital which provides the best treatment. Labs of Max are also NABL Accredited",
       image2: image9,
       image3: image10,
     },
+
     {
-      image: image2,
-      title: "Fortis Memorial Research Institute",
+      image: rajan_dental,
+      title: "Rajan Dental",
       location:
-        "Sector - 44, Opposite HUDA City Centre, Gurugram, Haryana 122002",
+        " 56, Dr R K Salai, Jagadambal Colony, Mylapore, Chennai, Tamil Nadu 600004",
       facilities:
-        "	It is NABH and JCI accredited hospital which provides the best treatment. NABL Accredited Labs.",
-
+        "It is NABH and JCI accredited hospital which provides the best treatment. Labs of Max are also NABL Accredited",
       image2: image9,
       image3: image10,
     },
     {
-      image: image3,
+      image: dentzz_clinic,
+      title: "Dentzz",
+      location: "9/9A, 1st Floor, Delstar CHS,  N S Patkar Marg, Mumbai 400036",
+      facilities:
+        "It is NABH and JCI accredited hospital which provides the best treatment. Labs of Max are also NABL Accredited",
+      image2: image9,
+      image3: image10,
+    },
+    {
+      image: apollo_dental,
+      title: "Apollo White Dental",
+      location:
+        "A19A, Near Kailash Colony Metro Station, Block A, Sector 19, Delhi 110048",
+      facilities:
+        "It is NABH and JCI accredited hospital which provides the best treatment. Labs of Max are also NABL Accredited",
+      image2: image9,
+      image3: image10,
+    },
+    {
+      image: artemis,
       title: "Artemis Hospital",
       location: "Sector 51, Gurugram, Bindapur, Haryana 122001",
       facilities:
-        "It is NABH and JCI accredited hospital which provides the best treatment. It is NABH and JCI accredited hospital which provides the best treatment.",
-
+        "It is NABH and JCI accredited hospital which provides the best treatment. Labs of Max are also NABL Accredited",
       image2: image9,
       image3: image10,
     },
     {
-      image: image4,
-      title: "BLK-Max	Hospital",
-      location: "OPD 7, First Floor, Pusa Rd, Radha Soami Satsang, Rajendra Place, New Delhi, Delhi 110005",
+      image: cosmodent_hospital,
+      title: "Cosmodent",
+      location: "548-SP, Sector 39, Gurugram, Haryana 122001",
       facilities:
-        "	It is NABH and JCI accredited hospital which provides the best treatment. 	Labs of Max are also NABL Accredited.",
-
-      image2: image9,
-      image3: image10,
-    },
-    {
-      image: image5,
-      title: "Sanar International Hospital",
-      location:
-        "Golf Course Rd, Parsvnath Exotica, DLF Phase 5, Sector 53, Gurugram, Haryana 122022.",
-      facilities:
-        "	It is NABH and JCI accredited hospital which provides the best treatment. NABL Accredited Labs",
-
-      image2: image9,
-      image3: image10,
-    },
-    {
-      image: image6,
-      title: "Max Super Speciality Hospital",
-      location: "FC 50, Max Wali Rd, C and D Block, Shalimar Place Site, Shalimar Bagh, New Delhi, Delhi, 110088",
-      facilities:
-        "	It is NABH and JCI accredited hospital which provides the best treatment.	NABL Accredited Labs",
-
-      image2: image9,
-      image3: image10,
-    },
-    {
-      image: image7,
-      title: "Indraprastha Apollo Hospital",
-      location:
-        "Indraprastha Apollo Hospital, NH-19, New Delhi, Delhi 110076",
-      facilities:
-        "It is NABH and JCI accredited hospital which provides the best treatment. 	NABL Accredited Labs",
-
-      image2: image9,
-      image3: image10,
-    },
-    {
-      image: image8,
-      title: "Medanta–The Medicity",
-      location: "Medanta- The Medicity, CH Baktawar Singh Rd, Medicity, Islampur Colony, Sector 38, Gurugram, Haryana 122001",
-      facilities:
-        "Medanta- The Medicity, CH Baktawar Singh Rd, Medicity, Islampur Colony, Sector 38, Gurugram, Haryana 122001. NABL Accredited Labs",
-
-      image2: image9,
-      image3: image10,
-    },
-    {
-      image: image8,
-      title: "Amrita Hospital ",
-      location: "Mata Amritanandamayi Marg, Sector 88, Faridabad, Haryana, 121002",
-      facilities:
-        "	It is a NABH and JCI-accredited hospital that provides the best treatment. NABL Accredited Labs",
+        "It is NABH and JCI accredited hospital which provides the best treatment. NABL Accredited Labs",
 
       image2: image9,
       image3: image10,
@@ -124,8 +87,9 @@ const Hospitals = () => {
       <div className={styless.it_img_section}>
         <div className="container">
           <div className={styless.it_img_area}>
-            <h2 class="fs-2 fw-bold text-center mb-4 mt-5">
-            Collaborated Hospitals with Alshifa Healthcare Services for Bone Marrow Transplant.
+            <h2 class="fs-2 fw-bold text-center mb-5 mt-5">
+              Collaborated Hospitals with Alshifa Healthcare Services for Dental
+              Problems.
             </h2>
             <div className={styless.it_img_list_section}>
               <Swiper
@@ -133,10 +97,10 @@ const Hospitals = () => {
                 spaceBetween={50}
                 slidesPerView={1}
                 pagination={{ clickable: true }}
-                // autoplay={{
-                //     delay: 2000,
-                //     disableOnInteraction: false
-                // }}
+                autoplay={{
+                  delay: 2000,
+                  disableOnInteraction: false,
+                }}
                 loop={true}
                 onSlideChange={() => console.log("slide change")}
                 onSwiper={(swiper) => console.log(swiper)}
@@ -148,12 +112,14 @@ const Hospitals = () => {
                         <Col md={6}>
                           <Image
                             className="sliderimg"
-                            style={{ width: "100%", height: "auto" }}
+                            style={{ width: "100%", height: "360px" }}
                             src={item?.image}
                             alt="image"
                             width={0}
                             height={0}
                             sizes="100vw"
+                            unoptimized={true}
+                            priority
                           />
                         </Col>
                         <Col md={6}>
@@ -162,10 +128,12 @@ const Hospitals = () => {
                             <span>{item.location}</span>
                             <div className={`${styless.sm_item} d-flex`}>
                               <div className={styless.sm_img}>
-                                <Image src={item.image2} alt="image"                                                            
+                                <Image
+                                  src={item.image2}
+                                  alt="image"
                                   width={59}
                                   height={59}
-                                  />
+                                />
                               </div>
                               <div className={styless.sm_txt}>
                                 <p>
@@ -183,7 +151,7 @@ const Hospitals = () => {
                                   src={item.image3}
                                   alt="image"
                                   width={59}
-                                //   height={55}
+                                  //   height={55}
                                 />
                               </div>
                               <div className={styless.sm_txt}>

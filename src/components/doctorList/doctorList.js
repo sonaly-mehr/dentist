@@ -19,54 +19,55 @@ const DoctorList = () => {
             <Row>
               <Col>
                 <div className={`${styless.doctor_title} text-center`}>
-                  <h2>CONSULT OUR BONE MARROW TRANSPLANT SPECIALISTS</h2>
+                  <h2>CONSULT OUR DENTISTS, ORTHODONTISTS AND IMPLANTOLOGIST</h2>
                   <p>
-                    Consult the best Hemato-Oncologist at the chain of hospitals
-                    that Marlin is affiliated with for blood and bone marrow
-                    related problems.
+                  Consult our team of specialized dental specialist for oral and dental problems, including operative and non-operative procedures like dental Implants, RCT, Smile makeovers etc
                   </p>
                 </div>
               </Col>
             </Row>
 
             <div className={styless.doctor_list_section}>
-              <Swiper
-                modules={[Pagination, Autoplay, FreeMode]}
-                breakpoints={{
-                  0: {
-                    slidesPerView: 1,
-                    spaceBetween: 10,
-                  },
-                  480: {
-                    slidesPerView: 2,
-                    spaceBetween: 10,
-                  },
-                  768: {
-                    slidesPerView: 3,
-                    spaceBetween: 15,
-                  },
-                  1024: {
-                    slidesPerView: 4,
-                    spaceBetween: 15,
-                  },
-                  1280: {
-                    slidesPerView: 5,
-                    spaceBetween: 30,
-                  },
-                }}
-                freeMode={true}
-                spaceBetween={30}
-                slidesPerView={6}
-                slidesPerGroup={1}
-                pagination={{ clickable: true }}
-                autoplay={{
-                  delay: 2000,
-                  disableOnInteraction: false,
-                }}
-                loop={true}
-                onSlideChange={() => console.log("slide change")}
-                onSwiper={(swiper) => console.log(swiper)}
-              >
+            <Swiper
+                            modules={[Pagination, Autoplay, FreeMode]}
+                            breakpoints={{
+                                0: {
+                                  slidesPerView: 1,
+                                  spaceBetween: 10,
+                                },
+                                480: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 10,
+                                },
+                                768: {
+                                    slidesPerView: 3,
+                                    spaceBetween: 15,
+                                },
+                                1024: {
+                                    slidesPerView: 4,
+                                    spaceBetween: 15,
+                                },
+                                1280: {
+                                    slidesPerView: 5,
+                                    spaceBetween: 30,
+                                },
+                                 
+                              }}
+                            freeMode={true}
+                            spaceBetween={30}
+                            slidesPerView={6}
+                            slidesPerGroup={1}
+                            pagination={{ clickable: true }}
+                    
+                            autoplay={{
+                                delay: 2000,
+                                disableOnInteraction: false
+                            }}
+                            loop={true}
+                            
+                            onSlideChange={() => console.log('slide change')}
+                            onSwiper={(swiper) => console.log(swiper)}
+                            >
                 {doctor.map((doc) => {
                   const { id, name, image, title, hospital_name } = doc;
                   return (
