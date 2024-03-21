@@ -15,10 +15,10 @@ const Summery = () => {
                 <div className={styles.summery_text}>
                   <h2>Alshifa Healthcare Services.</h2>
                   <p>
-                    Many patients from CIS, Africa and Middle East had a happy
+                    {` Many patients from CIS, Africa and Middle East had a happy
                     travel experiences and medical journey with Alshifa
                     Healthcare Services. It's known as one of the trustworthy
-                    company in the field of medical tourism in India.
+                    company in the field of medical tourism in India. `}
                   </p>
                 </div>
               </Col>

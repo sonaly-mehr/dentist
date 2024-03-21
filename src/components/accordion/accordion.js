@@ -130,10 +130,10 @@ const Accordionn = () => {
                     <Accordion.Item eventKey="5">
                       <Accordion.Header>Smile Makeover:</Accordion.Header>
                       <Accordion.Body>
-                        A smile makeover is done when person want to make their
+                        {`A smile makeover is done when person want to make their
                         appearance better with dental stuff like veneers and
                         teeth treatments. It's used in Hollywood to give
-                        characters a cool look.
+                        characters a cool look.`}
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
@@ -147,10 +147,10 @@ const Accordionn = () => {
                         Full Mouth Rehabilitation:
                       </Accordion.Header>
                       <Accordion.Body>
-                        Full Mouth Rehabilitation enhances your smile's
+                        {` Full Mouth Rehabilitation enhances your smile's
                         appearance and fixes how you bite. Advanced technology
                         is applied to reshape and renew teeth, gums, and nearby
-                        structures in the process of whole mouth rehabilitation.
+                        structures in the process of whole mouth rehabilitation.`}
                       </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="4">

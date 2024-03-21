@@ -39,7 +39,7 @@ const Navbar = () => {
     if (Object.keys(formError).length === 0 && isSubmit) {
       toast.success("From Submit success");
     }
-  }, [formError]);
+  }, [formError, isSubmit]);
 
   const validator = (value) => {
     const error = {};

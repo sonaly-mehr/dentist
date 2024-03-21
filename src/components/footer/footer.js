@@ -42,7 +42,7 @@ const Footer = () => {
                 <div className={`${styles.footer_list_inner} ${styles.close}`}>
                   <strong>Looking for Something Specific</strong>
                   <p>
-                    Marlin Medical Assistance Pvt. Ltd. is an award winning &
+                    dical Assistance Pvt. Ltd. is an award winning &
                     professionally managed international medical tourism
                     company, based at New Delhi in India. MMA Pvt. Ltd. caters
                     to the needs of Ministry of Health, Insurance Companies,
